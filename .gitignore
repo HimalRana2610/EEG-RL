@@ -1,0 +1,7 @@
+.venv
+data
+__pycache__
+DEAP
+eeg_rl_agent
+eeg_rl_agent.zip
+DEAP_dataset.zip
