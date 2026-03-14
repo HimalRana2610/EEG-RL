@@ -25,16 +25,16 @@ Data shape:
 
 ## Pipeline
 
-EEG signal
-↓
-Segmentation (1 second)
-↓
-Differential Entropy Features
-↓
-Prototype Learning (KMeans)
-↓
-Reinforcement Learning Agent
-↓
+EEG signal  
+↓  
+Segmentation (1 second)  
+↓  
+Differential Entropy Features  
+↓  
+Prototype Learning (KMeans)  
+↓  
+Reinforcement Learning Agent  
+↓  
 Emotionally informative segment selection
 
 ---
@@ -43,12 +43,12 @@ Emotionally informative segment selection
 
 Architecture:
 
-LSTM(128)
-↓
-FC(64)
-↓
-FC(32)
-↓
+LSTM(128)  
+↓  
+FC(64)  
+↓  
+FC(32)  
+↓  
 Action probabilities
 
 ---
@@ -73,13 +73,15 @@ R = center_reward + inter_intra_reward
 
 ## Installation
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
 ## Dataset Setup
 
-Download DEAP dataset.
+Download DEAP dataset: https://www.kaggle.com/datasets/manh123df/deap-dataset
 
 Place files inside:
 
@@ -87,14 +89,16 @@ data/
 
 Example:
 
-data/
+data/  
 s01.dat
 
 ---
 
 ## Running
 
+```bash
 python main.py
+```
 
 ---
 
